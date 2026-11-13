@@ -1,20 +1,19 @@
-# Boxing Reflex V1.2
+# Boxing Reflex V1.2.2 — correction de mise à jour iPhone
 
-## Modifications
-- Retrait des menus et exercices **Attaques** et **Jeu de jambes**.
-- Chronomètre musculation : compteur de séries, bouton **+ Série terminée** (incrémente la série et lance la récupération), bouton **Relancer la récupération** (ne modifie pas le nombre de séries), pause, durée de séance et historique local.
-- Jeu des cinq feux : appuyer et maintenir le doigt sur la zone, attendre l'allumage successif des feux rouges puis leur extinction aléatoire, relâcher au plus vite. Mesure du temps de réaction et détection des faux départs.
-- Conservation du chronomètre rounds, de la défense vocale et des réflexes visuels.
-- Les anciens historiques et réglages locaux ne sont pas supprimés.
+Cette archive contient **8 fichiers à envoyer ensemble** dans la racine du dépôt GitHub.
 
-## Mise à jour GitHub depuis iPhone
-1. Décompresser l'archive dans Fichiers.
-2. Dans le dépôt GitHub déjà créé, ouvrir **Add file > Upload files** et envoyer les fichiers de cette archive **à la racine** du dépôt. Confirmer les remplacements et **Commit changes**.
-3. Attendre la publication GitHub Pages, puis rouvrir l'application. Si l'ancienne version s'affiche, fermer complètement l'application, rouvrir Safari et actualiser le site, puis relancer l'icône.
-4. Ne pas supprimer les données Safari ou l'application installée si tu souhaites conserver l'historique.
+## Correction
+- Service worker réparé (le fichier V1.2 précédent contenait une erreur de syntaxe).
+- Nouvelle version de cache et chargement prioritaire depuis le réseau.
+- Fichiers CSS et JS avec identifiant de version pour éviter l’ancienne interface.
+- Modules Attaque et Jeu de jambes retirés ; chronomètre musculation et jeu des feux inclus.
 
-## Limites
-- La mesure tactile est indicative et dépend de la latence de l'écran tactile et du navigateur.
-- Le jeu des feux requiert un doigt maintenu sur l'écran : l'écran doit rester actif.
-- La voix française iOS peut être muette en mode silencieux.
-- Cette version n'a pas été validée sur un iPhone physique.
+## Installation depuis l’iPhone
+1. Décompresser le ZIP dans **Sur mon iPhone** si possible.
+2. Vérifier que les 8 fichiers sont disponibles et non marqués « Erreur » iCloud.
+3. Ouvrir https://github.com/Yann57525/Boxing-reflex./upload/main
+4. Importer les 8 fichiers **à la racine** et confirmer le remplacement des anciens.
+5. Attendre GitHub Pages puis ouvrir https://yann57525.github.io/Boxing-reflex./?v=122
+6. Fermer et relancer l’application installée ; ne pas effacer ses données locales.
+
+Ne pas envoyer le fichier ZIP lui-même sur GitHub : importer son contenu.
