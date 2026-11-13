@@ -1,4 +1,4 @@
-# Boxing Reflex V1.4
+# Boxing Reflex V1.4.1
 
 Nouvelle rubrique **Séance personnalisée** : sélection tactile de 6 coups et 10 défenses, séries chronométrées individuelles, programme sauvegardé localement, coach vocal répétant la combinaison, lancement manuel de chaque série, modification/suppression/réorganisation.
 
@@ -13,3 +13,8 @@ Les rubriques Chronomètre, Jeux réactivité et Défense sont conservées.
 5. Tester dans Safari en navigation privée avant l’application installée.
 
 Le stockage local existant est préservé tant que les données Safari/PWA ne sont pas effacées. La voix française peut être muette lorsque l’iPhone est en mode silencieux.
+
+## Modifications V1.4.1
+- Ordre des chapitres : Chronomètre, Séance personnalisée, Défense, Jeux réactivité.
+- Séance personnalisée : choix manuel ou automatique pour passer à la série suivante. En mode automatique, les séries s’enchaînent sans pause et la séance se termine et s’enregistre à la fin de la dernière série.
+- Préservation des données locales et du programme personnalisé.
