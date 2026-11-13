@@ -1,5 +1,5 @@
-const CACHE = 'boxing-reflex-v1-2-2-20261113';
-const ASSETS = ['./', './index.html', './style.css?v=122', './app.js?v=122', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+const CACHE = 'boxing-reflex-v1-3-20261113';
+const ASSETS = ['./', './index.html', './style.css?v=130', './app.js?v=130', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
 });

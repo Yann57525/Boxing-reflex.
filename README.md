@@ -1,19 +1,12 @@
-# Boxing Reflex V1.2.2 — correction de mise à jour iPhone
+# Boxing Reflex V1.3
 
-Cette archive contient **8 fichiers à envoyer ensemble** dans la racine du dépôt GitHub.
+- Chapitre **Chronomètre** : Musculation et Rounds.
+- Chapitre **Jeux réactivité** : Feux et Réflexes visuels.
+- Chapitre **Défense** : entraînement vocal libre ou en rounds (effort, repos, nombre de rounds).
+- Jeu des feux : les 5 feux s’allument successivement, puis s’éteignent après un délai aléatoire uniforme de 0,9 à 3 secondes.
 
-## Correction
-- Service worker réparé (le fichier V1.2 précédent contenait une erreur de syntaxe).
-- Nouvelle version de cache et chargement prioritaire depuis le réseau.
-- Fichiers CSS et JS avec identifiant de version pour éviter l’ancienne interface.
-- Modules Attaque et Jeu de jambes retirés ; chronomètre musculation et jeu des feux inclus.
+## Mise à jour GitHub Pages depuis iPhone
 
-## Installation depuis l’iPhone
-1. Décompresser le ZIP dans **Sur mon iPhone** si possible.
-2. Vérifier que les 8 fichiers sont disponibles et non marqués « Erreur » iCloud.
-3. Ouvrir https://github.com/Yann57525/Boxing-reflex./upload/main
-4. Importer les 8 fichiers **à la racine** et confirmer le remplacement des anciens.
-5. Attendre GitHub Pages puis ouvrir https://yann57525.github.io/Boxing-reflex./?v=122
-6. Fermer et relancer l’application installée ; ne pas effacer ses données locales.
+Téléverser **tous les fichiers du dossier**, sans le dossier lui-même, à la racine du dépôt GitHub, puis valider le commit. Attendre la publication et ouvrir le site dans Safari.
 
-Ne pas envoyer le fichier ZIP lui-même sur GitHub : importer son contenu.
+La version installée sur l'écran d'accueil peut rester en cache. Ne pas supprimer l'application si les données locales doivent être conservées.
